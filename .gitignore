@@ -1,1 +1,5 @@
 .idea/
+vendor/
+bin/
+.terrfom/
+.terrform.lock.hcl
