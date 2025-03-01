@@ -18,10 +18,10 @@ func GetConfig() *Config {
 	return &Config{
 		DB: &DBConfig{
 			Dialect:  "mysql",
-			Host:     "127.0.0.1",
+			Host:     "host.docker.internal",
 			Port:     3306,
-			Username: "guest",
-			Password: "Guest0000!",
+			Username: "srk",
+			Password: "s@rRy!",
 			Name:     "todoapp",
 			Charset:  "utf8",
 		},

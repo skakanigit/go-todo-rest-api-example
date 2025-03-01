@@ -5,9 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
+	"go-todo-rest-api-example/pkg/model"
+
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
 )
 
 func GetAllTasks(db *gorm.DB, w http.ResponseWriter, r *http.Request) {
