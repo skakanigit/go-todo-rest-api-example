@@ -1,5 +1,4 @@
-.idea/
-vendor/
 bin/
-infra/terrfom/ecr/.terrfom/
-infra/terraform/ecr/.terrform.lock.hcl
+vendor/
+infra/terraform/ecr/.terraform/
+infra/terraform/ecr/.terraform.lock.hcl
